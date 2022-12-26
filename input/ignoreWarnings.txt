@@ -1,0 +1,5 @@
+== Suppressed Messages ==
+
+# This profile is not part of this IG therefore cannot be found
+Profile reference 'http://hl7.org.au/fhir/StructureDefinition/au-patient' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+

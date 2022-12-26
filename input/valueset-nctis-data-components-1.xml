@@ -1,0 +1,40 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nctis-data-components-1"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-06-28T03:27:59.485+00:00"/>
+        <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        <!--<profile
+            value="https://healthterminologies.gov.au/fhir/StructureDefinition/composed-value-set-4"
+        />-->
+    </meta>
+    <url
+        value="https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1"/>
+    <identifier>
+        <system value="urn:ietf:rfc:3986"/>
+        <value value="urn:oid:1.2.36.1.2001.1004.201.10043"/>
+    </identifier>
+    <version value="1.0.2"/>
+    <name value="NCTISDataComponents"/>
+    <title value="NCTIS Data Components"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <date value="2020-05-31"/>
+    <publisher value="Australian Digital Health Agency"/>
+    <contact>
+        <telecom>
+            <system value="email"/>
+            <value value="help@digitalhealth.gov.au"/>
+        </telecom>
+    </contact>
+    <description
+        value="The National Clinical Terminology and Information Service (NCTIS) Data Components value set defines concepts that identify a data component. The codes can be used to indicate and identify a type of document, a section of a document, or an element."/>
+    <copyright
+        value="Copyright © 2018 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. &#xa;&#xa;This resource also includes material from the ‘Australian Immunisation Register Vaccine Code Formats last updated: 7 February 2018 © Commonwealth of Australia, represented by the Department of Human Services https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats. Licensed under https://creativecommons.org/licenses/by/3.0/au). &#xa;&#xa;All copies of this resource must include this copyright statement and all information contained in this statement."/>
+    <compose>
+        <include>
+            <system
+                value="https://healthterminologies.gov.au/fhir/CodeSystem/nctis-data-components-1"/>
+        </include>
+    </compose>
+</ValueSet>
