@@ -2,13 +2,5 @@
 	"name": "Alpine with java and ruby",
 	"build": {
 		"dockerfile": "Dockerfile"
-	},
-	"settings": {
-		"terminal.integrated.profiles.linux": {
-			"bash": {
-				"path": "bash",
-				"icon": "terminal-bash"
-			}
-		}
 	}
 }
