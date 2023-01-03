@@ -4,6 +4,8 @@ RUN apk update && \
     apk upgrade && \
     apk add \
        ruby \
+       bash \
+       curl \
        git \
        jekyll \
     rm -rf /var/cache/apk/*
