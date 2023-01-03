@@ -2,5 +2,6 @@
 	"name": "Alpine with java and ruby",
 	"build": {
 		"dockerfile": "Dockerfile"
-	}
+	},
+	"remoteUser": "vscode"
 }
