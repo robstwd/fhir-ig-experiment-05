@@ -8,5 +8,6 @@ RUN apk update && \
        curl \
        git \
        jekyll \
+       freetype \
     rm -rf /var/cache/apk/*
     
