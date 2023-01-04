@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="patient-1"/>
+    <url value="https://github.com/robstwd/fhir/StructureDefinition/patient-1"/>
+    <version value="0.0.1"/>
+    <name value="Patient1"/>
+    <title value="Patient 1"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <publisher value="Rob Eastwood (himself)" />
+    <contact>
+        <telecom>
+            <system value="url" />
+            <value value="https://github.com/robstwd" />
+        </telecom>
+    </contact>
+    <description value="The purpose of this profile is to do various testing"/>
+    <copyright value="Test copyright 2023"/>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Patient"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Patient">
+            <path value="Patient"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.identifier">
+            <path value="Patient.identifier"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.gender">
+            <path value="Patient.gender"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Patient.birthDate">
+            <path value="Patient.birthDate"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>

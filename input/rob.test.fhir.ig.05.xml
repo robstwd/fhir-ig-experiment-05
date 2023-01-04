@@ -27,17 +27,10 @@
   <definition>
       <resource>
         <reference>
-          <reference value="ValueSet/australian-immunisation-register-vaccine-1"/>
+          <reference value="StructureDefinition/patient-1" />
         </reference>
-        <name value="Australian Immunisation Register Vaccine"/>
-        <description value="Australian Immunisation Register Vaccine value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/australian-immunisation-register-vaccine-1"/>
-      </resource>
-      <resource>
-        <reference>
-          <reference value="ValueSet/nctis-data-components-1"/>
-        </reference>
-        <name value="NCTIS Data Components"/>
-        <description value="NCTIS Data Components value set from NCTS https://healthterminologies.gov.au/fhir/ValueSet/nctis-data-components-1"/>
+        <name value="Test patient profile"/>
+        <description value="Test patient profile" />
       </resource>
 
     <page>
