@@ -8,11 +8,11 @@ RUN apk update && \
        curl \
        git \
        jekyll \
-       freetype \
-       git submodule update --init --recursive --remote \
+       freetype \       
     rm -rf /var/cache/apk/*
 
 WORKDIR /workspaces/fhir-ig-experiment-05
 
-RUN mkdir input-cache && \
+RUN git submodule update --init --recursive --remote && \
+    mkdir input-cache && \
     wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O input-cache/publisher.jar
