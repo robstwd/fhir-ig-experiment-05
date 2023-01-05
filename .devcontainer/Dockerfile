@@ -9,6 +9,5 @@ RUN apk update && \
        git \
        jekyll \
        freetype \
-       git submodule update --init --recursive \
+       git submodule update --init --recursive --remote \
     rm -rf /var/cache/apk/*
-    
