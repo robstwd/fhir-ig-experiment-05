@@ -10,5 +10,6 @@
 				"streetsidesoftware.code-spell-checker-medical-terms", 
 				"redhat.vscode-xml"]
 		}
-	}
+	},
+	"postCreateCommand": "git submodule update --init --recursive"
 }
