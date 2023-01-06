@@ -13,5 +13,5 @@ RUN apk update && \
 
 WORKDIR /workspaces/fhir-ig-experiment-05
 
-RUN mkdir input-cache && \
-    wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O input-cache/publisher.jar
+# RUN mkdir input-cache && \
+#     wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O input-cache/publisher.jar
