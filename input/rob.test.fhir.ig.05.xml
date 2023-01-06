@@ -32,6 +32,13 @@
         <name value="Test patient profile"/>
         <description value="Test patient profile" />
       </resource>
+      <resource>
+        <reference>
+          <reference value="Patient/example-01"/>
+        </reference>
+        <name value="Test patient example"/>
+        <description value="Test patient example"/>
+      </resource>
 
     <page>
       <nameUrl value="toc.html"/>
