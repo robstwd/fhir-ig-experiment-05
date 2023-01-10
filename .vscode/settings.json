@@ -1,5 +1,7 @@
 {
   "xml.fileAssociations": [
+    // Associating R4 schema file
+    // https://github.com/redhat-developer/vscode-xml/blob/main/docs/Validation.md#xml-file-association-with-xsd
     {
       "pattern": "**/*.xml",
       "systemId": "input-cache/schemas/R4/fhir-single.xsd"
