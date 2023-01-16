@@ -7,4 +7,5 @@ RUN apt-get update && \
     ruby-full \
     build-essential \
     git \
-    openjdk-17-jre-headless
+    openjdk-17-jre-headless && \
+    gem install jekyll --no-document
