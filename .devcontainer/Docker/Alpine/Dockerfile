@@ -1,14 +1,13 @@
 FROM openjdk:19-jdk-alpine
 
-RUN apk update && \
-    apk upgrade && \
-    apk add \
+RUN apk  --no-cache update && \
+    apk  --no-cache upgrade && \
+    apk  --no-cache add \
        ruby \
        bash \
        curl \
        git \
        jekyll \
-       freetype \       
-    rm -rf /var/cache/apk/*
+       freetype
 
 WORKDIR /workspaces/fhir-ig-experiment-05
