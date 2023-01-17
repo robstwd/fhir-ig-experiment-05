@@ -1,23 +1,24 @@
 {
-	"name": "Debian with java and ruby",
-	"build": {
-		"dockerfile": "Docker/Debian/Dockerfile"
-	},
-	"customizations": {
-		"vscode": {
-			"settings": {
-				"xml.fileAssociations": [
-					{
-						"pattern": "**/*.xml",
-						"systemId": "input-cache/schemas/R4/fhir-single.xsd"
-					}
-				]
-			},
-			"extensions": [
-				"streetsidesoftware.code-spell-checker", 
-				"streetsidesoftware.code-spell-checker-medical-terms", 
-				"redhat.vscode-xml"]
-		}
-	},
-	"postCreateCommand": "git submodule update --init --recursive && mkdir -p input-cache && wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O input-cache/publisher.jar"
+  "name": "Debian with java and ruby",
+  "build": {
+    "dockerfile": "Docker/Debian/Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "xml.fileAssociations": [
+          {
+            "pattern": "**/*.xml",
+            "systemId": "input-cache/schemas/R4/fhir-single.xsd"
+          }
+        ]
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-medical-terms",
+        "redhat.vscode-xml"
+      ]
+    }
+  },
+  "postCreateCommand": "git submodule update --init --recursive && mkdir -p input-cache && wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar -O input-cache/publisher.jar"
 }
