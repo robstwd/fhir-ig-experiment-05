@@ -1,5 +1,5 @@
 {
-	"name": "Alpine with java and ruby",
+	"name": "Debian with java and ruby",
 	"build": {
 		"dockerfile": "Docker/Debian/Dockerfile"
 	},
